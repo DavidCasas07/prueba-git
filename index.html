@@ -1,0 +1,649 @@
+
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta
+        name="description"
+        content="Descubre Awa Divina, un spa de uñas familiar. Disfruta de manicure, pedicure, semipermanente y diseños Press On."
+    >
+    <meta name="theme-color" content="#f8f5ed">
+    <meta name="robots" content="index, follow">
+
+    <title>Awa Divina | Spa de Uñas</title>
+
+    <!-- Optimización de conexiones externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <!-- Tipografías -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Metadatos para compartir la página -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Awa Divina | Spa de Uñas">
+    <meta
+        property="og:description"
+        content="Un espacio para consentirte, cuidar cada detalle y lucir unas uñas que reflejen tu esencia."
+    >
+</head>
+
+<body>
+    <!-- Encabezado y navegación principal -->
+    <header class="header" id="inicio">
+        <a
+            href="#inicio"
+            class="brand"
+            aria-label="Awa Divina, ir al inicio"
+        >
+            <span class="brand-icon" aria-hidden="true">✳</span>
+
+            <span class="brand-name">
+                Awa Divina
+                <small>NAIL STUDIO</small>
+            </span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-label="Abrir menú de navegación"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+        >
+            <span aria-hidden="true">☰</span>
+        </button>
+
+        <nav
+            class="nav"
+            id="nav-menu"
+            aria-label="Navegación principal"
+        >
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#reservar" class="nav-button">
+                Reservar cita ↗
+            </a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main id="contenido-principal">
+
+        <!-- Portada -->
+        <section
+            class="hero"
+            aria-labelledby="hero-title"
+        >
+            <div class="hero-content">
+                <div class="eyebrow">
+                    <span
+                        class="eyebrow-line"
+                        aria-hidden="true"
+                    ></span>
+                    BELLEZA, CALMA Y BIENESTAR
+                </div>
+
+                <h1 id="hero-title">
+                    Tus manos merecen
+                    <span>un momento divino.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Un espacio para consentirte, cuidar cada detalle
+                    y lucir unas uñas que reflejen tu esencia.
+                </p>
+
+                <div class="hero-actions">
+                    <a
+                        href="#servicios"
+                        class="button button-primary"
+                    >
+                        Descubrir servicios
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                    <a
+                        href="#nosotros"
+                        class="button button-secondary"
+                    >
+                        Conócenos
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-icon" aria-hidden="true">✿</span>
+
+                    <p>
+                        Un pequeño momento para ti.
+                        <br>
+                        Una experiencia para recordar.
+                    </p>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image-frame">
+                    <img
+                        src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=85"
+                        alt="Manicure delicado y elegante"
+                        class="hero-image"
+                        width="1000"
+                        height="1200"
+                        fetchpriority="high"
+                        decoding="async"
+                    >
+
+                    <div class="image-caption">
+                        <span>01 / TU MOMENTO</span>
+                        <span aria-hidden="true">✳</span>
+                    </div>
+                </div>
+
+                <aside
+                    class="floating-card"
+                    aria-label="Nuestra filosofía"
+                >
+                    <span
+                        class="floating-icon"
+                        aria-hidden="true"
+                    >✿</span>
+
+                    <div>
+                        <strong>Detalles que enamoran</strong>
+                        <p>Tu belleza, a tu manera.</p>
+                    </div>
+                </aside>
+
+                <div
+                    class="decorative-circle"
+                    aria-hidden="true"
+                ></div>
+            </div>
+        </section>
+
+        <!-- Valores del estudio -->
+        <section
+            class="values-strip"
+            aria-label="Lo que nos caracteriza"
+        >
+            <div class="value-item">
+                <span aria-hidden="true">✳</span>
+                <p>Cuidado en cada detalle</p>
+            </div>
+
+            <div class="value-item">
+                <span aria-hidden="true">❋</span>
+                <p>Diseños para tu estilo</p>
+            </div>
+
+            <div class="value-item">
+                <span aria-hidden="true">✿</span>
+                <p>Un espacio para ti</p>
+            </div>
+        </section>
+
+        <!-- Catálogo de servicios -->
+        <section
+            class="services section"
+            id="servicios"
+            aria-labelledby="services-title"
+        >
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">
+                        NUESTRO MENÚ DE BELLEZA
+                    </span>
+
+                    <h2 id="services-title">
+                        Encuentra tu
+                        <span>momento ideal.</span>
+                    </h2>
+                </div>
+
+                <p class="section-description">
+                    Descubre nuestros servicios y elige
+                    el que mejor se adapte a ti.
+                </p>
+            </div>
+
+            <!-- JavaScript genera aquí las tarjetas de servicios -->
+            <div
+                class="services-grid"
+                id="services-grid"
+                aria-label="Servicios disponibles"
+            ></div>
+
+            <p class="services-note">
+                <span aria-hidden="true">✳</span>
+                Los precios de algunos diseños pueden variar
+                según su complejidad.
+            </p>
+        </section>
+
+        <!-- Información sobre el spa -->
+        <section
+            class="about section"
+            id="nosotros"
+            aria-labelledby="about-title"
+        >
+            <div class="about-visual">
+                <div class="about-image-main">
+                    <img
+                        src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?auto=format&fit=crop&w=900&q=85"
+                        alt="Detalle de un diseño de uñas"
+                        width="900"
+                        height="1100"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                </div>
+
+                <div
+                    class="about-stamp"
+                    aria-label="Awa Divina"
+                >
+                    <span>AWA</span>
+                    <span aria-hidden="true">✳</span>
+                    <span>DIVINA</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <span class="section-label">
+                    UN ESPACIO HECHO CON AMOR
+                </span>
+
+                <h2 id="about-title">
+                    La belleza también está
+                    <span>en cómo te sientes.</span>
+                </h2>
+
+                <p>
+                    En Awa Divina creemos que dedicarte tiempo
+                    también es una forma de cuidarte.
+                </p>
+
+                <p>
+                    Somos un spa de uñas familiar que busca ofrecer
+                    una experiencia cercana, tranquila y especial,
+                    prestando atención a esos pequeños detalles
+                    que hacen la diferencia.
+                </p>
+
+                <div class="about-signature">
+                    <span>Con cariño,</span>
+                    <strong>
+                        Awa Divina
+                        <span aria-hidden="true">✿</span>
+                    </strong>
+                </div>
+
+                <a href="#reservar" class="text-link">
+                    Regálate un momento para ti ↗
+                </a>
+            </div>
+        </section>
+
+        <!-- Llamado a la acción para reservar -->
+        <section
+            class="booking-banner"
+            id="reservar"
+            aria-labelledby="booking-banner-title"
+        >
+            <div
+                class="booking-decoration decoration-one"
+                aria-hidden="true"
+            >✳</div>
+
+            <div
+                class="booking-decoration decoration-two"
+                aria-hidden="true"
+            >✿</div>
+
+            <span class="section-label">
+                TU PRÓXIMO MOMENTO FAVORITO
+            </span>
+
+            <h2 id="booking-banner-title">
+                ¿Lista para consentirte?
+            </h2>
+
+            <p>
+                Elige tu servicio favorito y comienza a planear
+                tu próxima visita a Awa Divina.
+            </p>
+
+            <button
+                class="button button-light"
+                id="open-booking"
+                type="button"
+            >
+                Quiero reservar
+                <span aria-hidden="true">↗</span>
+            </button>
+        </section>
+
+        <!-- Información de contacto -->
+        <section
+            class="contact section"
+            id="contacto"
+            aria-labelledby="contact-title"
+        >
+            <div class="contact-heading">
+                <span class="section-label">
+                    ESTAMOS PARA TI
+                </span>
+
+                <h2 id="contact-title">
+                    Nos encantará
+                    <span>atenderte.</span>
+                </h2>
+
+                <p>
+                    ¿Tienes dudas sobre un servicio o quieres
+                    consultar nuestros horarios?
+                </p>
+            </div>
+
+            <div class="contact-grid">
+
+                <article
+                    class="contact-card"
+                    aria-labelledby="contact-location-title"
+                >
+                    <span
+                        class="contact-icon"
+                        aria-hidden="true"
+                    >⌖</span>
+
+                    <h3 id="contact-location-title">
+                        Encuéntranos
+                    </h3>
+
+                    <p id="contact-address">
+                        Nuestra ubicación estará disponible próximamente.
+                    </p>
+                </article>
+
+                <article
+                    class="contact-card"
+                    aria-labelledby="contact-hours-title"
+                >
+                    <span
+                        class="contact-icon"
+                        aria-hidden="true"
+                    >◷</span>
+
+                    <h3 id="contact-hours-title">
+                        Horarios
+                    </h3>
+
+                    <p id="contact-hours">
+                        Consulta nuestros horarios al solicitar tu cita.
+                    </p>
+                </article>
+
+                <article
+                    class="contact-card"
+                    aria-labelledby="contact-message-title"
+                >
+                    <span
+                        class="contact-icon"
+                        aria-hidden="true"
+                    >♡</span>
+
+                    <h3 id="contact-message-title">
+                        Hablemos
+                    </h3>
+
+                    <p>
+                        Estamos aquí para ayudarte a elegir
+                        tu próximo servicio.
+                    </p>
+
+                    <button
+                        class="contact-link"
+                        id="contact-whatsapp"
+                        type="button"
+                    >
+                        Consultar por WhatsApp ↗
+                    </button>
+                </article>
+
+            </div>
+
+           <div class="map-section" aria-labelledby="map-title">
+    <div class="map-heading">
+        <span class="section-label">VISÍTANOS</span>
+        <h3 id="map-title">Encuentra tu camino <span>hasta nosotras.</span></h3>
+        <p>Estamos aquí para recibirte y compartir contigo un momento especial.</p>
+    </div>
+
+    <div class="mapa-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.021188571269!2d-75.38484482501039!3d6.127850793858925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e469f02bad6d8e1%3A0xd4681c0c7e8a6c2!2sAWA%20DIVINA%20TIENDA%20DE%20BELLEZA%20Y%20VARIEDADES!5e0!3m2!1ses!2sco!4v1792781388524!5m2!1ses!2sco"
+            title="Ubicación de Awa Divina en Google Maps"
+            width="600"
+            height="450"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <a
+        class="map-directions"
+        href="https://www.google.com/maps/search/?api=1&query=AWA%20DIVINA%20TIENDA%20DE%20BELLEZA%20Y%20VARIEDADES"
+        target="_blank"
+        rel="noopener noreferrer">
+        Cómo llegar a Awa Divina ↗
+    </a>
+
+    </div>
+
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <a href="#inicio" class="footer-brand">
+            Awa Divina
+            <span aria-hidden="true">✳</span>
+        </a>
+
+        <p>
+            Un momento para ti, una experiencia divina.
+        </p>
+
+        <a href="#inicio" class="back-top">
+            Volver arriba ↑
+        </a>
+
+        <div class="footer-bottom">
+            <span>
+                © <span id="current-year"></span> Awa Divina
+            </span>
+
+            <span>Hecho con cariño ✿</span>
+        </div>
+    </footer>
+
+    <!-- Diálogo para solicitar una reserva -->
+    <div
+        class="modal-overlay"
+        id="booking-modal"
+        hidden
+    >
+        <section
+            class="booking-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="booking-title"
+            aria-describedby="booking-description"
+            tabindex="-1"
+        >
+            <button
+                class="modal-close"
+                id="close-booking"
+                type="button"
+                aria-label="Cerrar ventana de reserva"
+            >
+                <span aria-hidden="true">×</span>
+            </button>
+
+            <span class="section-label">
+                RESERVA TU MOMENTO
+            </span>
+
+            <h2 id="booking-title">
+                Tu próxima cita
+                <span>comienza aquí.</span>
+            </h2>
+
+            <p
+                class="modal-description"
+                id="booking-description"
+            >
+                Cuéntanos qué servicio deseas y cuándo
+                te gustaría venir.
+            </p>
+
+            <form id="booking-form">
+                <label for="client-name">
+                    Tu nombre
+                </label>
+
+                <input
+                    type="text"
+                    id="client-name"
+                    name="clientName"
+                    placeholder="¿Cómo te llamas?"
+                    maxlength="80"
+                    autocomplete="name"
+                    required
+                >
+
+                <label for="client-phone">
+                    Tu teléfono
+                </label>
+
+                <input
+                    type="tel"
+                    id="client-phone"
+                    name="clientPhone"
+                    placeholder="Tu número de contacto"
+                    maxlength="25"
+                    autocomplete="tel"
+                    required
+                >
+
+                <label for="booking-service">
+                    Servicio que deseas
+                </label>
+
+                <select
+                    id="booking-service"
+                    name="service"
+                    required
+                >
+                    <option value="">
+                        Selecciona un servicio
+                    </option>
+                </select>
+
+                <div class="form-row">
+                    <div>
+                        <label for="booking-date">
+                            Fecha
+                        </label>
+
+                        <input
+                            type="date"
+                            id="booking-date"
+                            name="date"
+                            required
+                        >
+                    </div>
+
+                    <div>
+                        <label for="booking-time">
+                            Hora preferida
+                        </label>
+
+                        <select
+                            id="booking-time"
+                            name="time"
+                            required
+                        >
+                            <option value="">
+                                Selecciona
+                            </option>
+                        </select>
+                    </div>
+                </div>
+
+                <label for="booking-notes">
+                    Detalles adicionales (opcional)
+                </label>
+
+                <textarea
+                    id="booking-notes"
+                    name="notes"
+                    placeholder="Cuéntanos si tienes algún diseño en mente..."
+                    maxlength="500"
+                    rows="3"
+                ></textarea>
+
+                <div
+                    class="booking-summary"
+                    id="booking-summary"
+                    aria-live="polite"
+                >
+                    Selecciona un servicio para consultar
+                    su precio y duración.
+                </div>
+
+                <button
+                    type="submit"
+                    class="button button-primary submit-booking"
+                >
+                    Continuar con mi reserva ↗
+                </button>
+
+                <p class="form-disclaimer">
+                    La fecha y hora son una solicitud de preferencia.
+                    Tu cita deberá ser confirmada por el spa.
+                </p>
+            </form>
+        </section>
+    </div>
+
+    <!-- Mensajes accesibles para acciones del usuario -->
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+    ></div>
+
+    <!-- JavaScript de la aplicación -->
+    <script src="script.js" defer></script>
+</body>
+</html>z
